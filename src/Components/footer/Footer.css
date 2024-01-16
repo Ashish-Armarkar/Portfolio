@@ -1,0 +1,27 @@
+#footer {
+    background-color: var(--color-primary-variant);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-text {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 600px) {
+    #footer {
+      padding: 10px;
+    }
+  
+    .footer-text {
+      max-width: 100%;
+    }
+  }
+  
